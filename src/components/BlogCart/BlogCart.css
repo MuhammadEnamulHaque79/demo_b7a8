@@ -1,24 +1,20 @@
 .cart{
-    /* background:lightgray; */
-    padding: 25px;
+    padding: 10px;
     position: sticky;
     top: 0;
   
 }
 
-.cart h2{
-    font-size: 22px;
-    text-align: center;
+
+.title-section{
+    border: 1px solid lightpink;
+    border-radius: 5px;
+    padding: 10px;
 }
 
-.cart h6{
-    font-size: 18px;
-    margin-top: 25px;
-    margin-left: 5px;
+
+.title-section > h6:hover{
+    border-color: 5px solid purple;
 }
 
-.cart h4{
-    font-size: 21px;
-    margin-top: 30px;
-    margin-left: 5px;
-}
+

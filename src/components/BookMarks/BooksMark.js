@@ -4,7 +4,7 @@ const BooksMark = ({blogTitle}) => {
     
     return (
         <div>
-            <h1>Bookmarked Blogs :{blogTitle} </h1>
+            <h3>Bookmarked Blogs:{blogTitle} </h3>
         </div>
     );
 };

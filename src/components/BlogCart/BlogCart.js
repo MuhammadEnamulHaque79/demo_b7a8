@@ -10,16 +10,20 @@ const BlogCart = ({ watchTime, bookMark }) => {
 
   return (
     <div className="cart">
-      <h4 className="text-center">
-        Spent time on read :{time} <span>min</span>
-      </h4>
-      <h4 className="text-center">book marks count :{bookMark.length}</h4>
-
-      {bookMark.map((book, index) => (
-        <h4 key={index}>{book.blogTitle} </h4>
-      ))}
+      <div>
+        <h4 class="border border-sky-500 font-semibold rounded p-2">Spent time on read :{time} <span>min</span></h4>
+      </div>
+      <div className="title-section mt-3">
+      <h4 className="font-semibold">Bookmarked Blogs : {bookMark.length}</h4>
+        {bookMark.map((book, index) => (
+          <h6 class="border border-sky-500 p-2" key={index}>{book.blogTitle} </h6>
+        ))}
+      </div>
     </div>
   );
 };
 
 export default BlogCart;
+
+      
+
