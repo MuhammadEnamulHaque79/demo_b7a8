@@ -50,7 +50,7 @@ function App() {
   };
 
   return (
-    <div className="mt-5">
+    <div>
       <div><Header></Header> </div>
       
       <div className="main row">

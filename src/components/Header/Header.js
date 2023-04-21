@@ -3,14 +3,16 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <nav className='header-info'>
-           <span>Knowledge Valley</span>
-           <div className='nav-link'>
-           <a href="/Programming">Programming</a>
-           <a href="/inventory">Inventory</a>
-           <a href="/contact">Contact</a>
-           <a href="/login">Login</a>
-           </div>
+        <nav className='header'>
+            <div className='header-title'>
+                <h6>Knowledge Valley</h6>
+            </div>
+            <div className='header-link'>
+                <a href="/Programming">Programming</a>
+                <a href="/inventory">Inventory</a>
+                <a href="/contact">Contact</a>
+                <a href="/login">Login</a>
+            </div>
         </nav>
     );
 };
